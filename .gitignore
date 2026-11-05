@@ -1,0 +1,30 @@
+# OS and editor state
+.DS_Store
+.idea/
+.vscode/
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node and TypeScript outputs
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Xcode and Swift outputs
+DerivedData/
+.build/
+xcuserdata/
+*.xcuserstate
+
+# Local application data and evaluation outputs
+.local/
+/data/
+/evals/results/

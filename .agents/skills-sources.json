@@ -1,0 +1,228 @@
+{
+  "updated": "2026-11-05",
+  "sources": [
+    {
+      "path": ".agents/skills/shape",
+      "source": "https://github.com/daphne-proj/daphne/tree/997f4f36bace2e94613b9e20649c548146498631/.agents/skills/shape",
+      "revision": "997f4f36bace2e94613b9e20649c548146498631",
+      "sha256": {
+        ".agents/skills/shape/SKILL.md": "6e05fac2dd9af5ac26597f4e889e318ca3f86a0eadfbede54a65a0b2017151fd",
+        ".agents/skills/shape/agents/openai.yaml": "89cd6f49c663b90a55ea44b57d69d1be54bbdee2a5fa206a7a7fd7b1e5993d1e"
+      }
+    },
+    {
+      "path": ".agents/skills/external-research",
+      "source": "https://github.com/daphne-proj/daphne/tree/997f4f36bace2e94613b9e20649c548146498631/.agents/skills/external-research",
+      "revision": "997f4f36bace2e94613b9e20649c548146498631",
+      "sha256": {
+        ".agents/skills/external-research/SKILL.md": "0006fd6916e94612ba182d50d015686dbc06179cb9de130d0ae4aa13b3d6fa6e",
+        ".agents/skills/external-research/agents/openai.yaml": "13693a241e7ffbfa8cc3b367557afb5751a43b4dc832f41eca8bcd8d7f8c6fcc"
+      }
+    },
+    {
+      "path": ".agents/skills/disposable-prototype",
+      "source": "https://github.com/daphne-proj/daphne/tree/997f4f36bace2e94613b9e20649c548146498631/.agents/skills/disposable-prototype",
+      "revision": "997f4f36bace2e94613b9e20649c548146498631",
+      "sha256": {
+        ".agents/skills/disposable-prototype/SKILL.md": "8e592c8c84ace3d613bbf9c245dc231f36fb59541d27e294013fd3f17a80e69b",
+        ".agents/skills/disposable-prototype/agents/openai.yaml": "d65fe8c911fc2d6762c37cbc17b243ef4da2947b6e786023a4bda850a3923ba9"
+      }
+    },
+    {
+      "path": ".agents/skills/decisions-to-spec",
+      "source": "https://github.com/daphne-proj/daphne/tree/997f4f36bace2e94613b9e20649c548146498631/.agents/skills/decisions-to-spec",
+      "revision": "997f4f36bace2e94613b9e20649c548146498631",
+      "sha256": {
+        ".agents/skills/decisions-to-spec/SKILL.md": "ddbfdb9469c8a47f16313ea71f6051f1eca4c17bfe436bcb1c710144ff795e61",
+        ".agents/skills/decisions-to-spec/agents/openai.yaml": "5c1bb10bd37f014aab6080075b425f8680bf7e8db49d41e3c5a00b6eb7d1f884",
+        ".agents/skills/decisions-to-spec/references/spec-outline.md": "2474d6a6b5235b04b7fb81d082eaac1cb29a50f1dbfc806db11d3ec1a6ed892d"
+      }
+    },
+    {
+      "path": ".agents/skills/proposal-audit",
+      "source": "https://github.com/daphne-proj/daphne/tree/997f4f36bace2e94613b9e20649c548146498631/.agents/skills/proposal-audit",
+      "revision": "997f4f36bace2e94613b9e20649c548146498631",
+      "sha256": {
+        ".agents/skills/proposal-audit/SKILL.md": "2145d62743542e18b2f5bd45bc8d8a4131496eb97ebf1442982c08c8806161b9",
+        ".agents/skills/proposal-audit/agents/openai.yaml": "78c1cd1bc5a0c648358a5fc5296d56257948e5acd192f7477b16c144b5aaedbb",
+        ".agents/skills/proposal-audit/references/audit-checklist.md": "6a392a2c941a7ccade01c910c5696daf3c670b92f87dae04a2a109034ee7de00"
+      }
+    },
+    {
+      "path": ".agents/skills/references",
+      "source": "https://github.com/daphne-proj/daphne/tree/997f4f36bace2e94613b9e20649c548146498631/.agents/skills/references",
+      "revision": "997f4f36bace2e94613b9e20649c548146498631",
+      "sha256": {
+        ".agents/skills/references/context-contract.md": "eb81241a26b0260a416bf25f94042bbe6d1c6492da0847ae97a1ebedfff5b711"
+      }
+    },
+    {
+      "path": ".agents/skills/evals",
+      "source": "https://github.com/daphne-proj/daphne/tree/997f4f36bace2e94613b9e20649c548146498631/.agents/skills/evals",
+      "revision": "997f4f36bace2e94613b9e20649c548146498631",
+      "sha256": {
+        ".agents/skills/evals/README.md": "fe1fed21452b661f33235c7e0135ea02a5b6ae6330b3aae2046349d1a697ae7b",
+        ".agents/skills/evals/cases.yaml": "7c006051f22f89a8dbfd40dce16ca0e561f6ab036a4c118de16b0a9d0b10b113",
+        ".agents/skills/evals/rubric.yaml": "0148ef8e774da3b905e51576958c111ca0b2d147ca5b223bc38c470deac8e3e3"
+      }
+    },
+    {
+      "path": ".agents/skills/vitest",
+      "source": "https://github.com/antfu/skills/tree/feb0f3aba6566426f12230e7fc7a10d97c1293bb/skills/vitest",
+      "revision": "feb0f3aba6566426f12230e7fc7a10d97c1293bb",
+      "license": "MIT",
+      "licensePath": ".agents/skills/vitest/LICENSE.md",
+      "sha256": {
+        ".agents/skills/vitest/GENERATION.md": "23311c1ba3ed0422e7ba071e2dc800f7fd9800c2290292e2fc0079eb0ba02026",
+        ".agents/skills/vitest/LICENSE.md": "2a596f697b619094b6f4067936e0f385027a393bce32211383db0478774c1cb2",
+        ".agents/skills/vitest/SKILL.md": "d0c470a07b90936ca77fea9fbe25ab657a5bc1f386eb45b18bb70899df7e6baf",
+        ".agents/skills/vitest/references/advanced-environments.md": "845c872d9f0d4fccf9b09b20e98a7528869477c3f40273b0b587f51c7ac66429",
+        ".agents/skills/vitest/references/advanced-projects.md": "a91fe2033feb5336c18d154c661fa9f417962a3673de9cc468e6dec933891ae2",
+        ".agents/skills/vitest/references/advanced-type-testing.md": "88a5c36d3510200e1ebb5181520b4dcf87939d0d49ac58ead30588689340829c",
+        ".agents/skills/vitest/references/advanced-vi.md": "48b29696590615ddff5bcf439bdf50f434182e57bb9d1ec83cfca58d344610fc",
+        ".agents/skills/vitest/references/core-cli.md": "9b91797f4e74e70ded6934b35de9ee525acc4e0ab251bd30f935e87eb1e8f00e",
+        ".agents/skills/vitest/references/core-config.md": "60fd084b93f2c398236c55031070a85c549711234df1eb2faefeaa7312b8576c",
+        ".agents/skills/vitest/references/core-describe.md": "0c99cd75e7808b0abaaf06eb9ad3ba6046fff0054d1624c8983dfae87d1e0827",
+        ".agents/skills/vitest/references/core-expect.md": "d1f59f28e56825a676259dcb7fe46f71079dd16b1191bb01ec12eb3f69ee4d45",
+        ".agents/skills/vitest/references/core-hooks.md": "2ff9b1700579a8e734ceb1ec783b01d0bd90837094f729bc65e63d5596a172d4",
+        ".agents/skills/vitest/references/core-test-api.md": "0529b5cffcdf08fed41e84fa7cb94c1e47eb102a659621b4c81dbea129678ff7",
+        ".agents/skills/vitest/references/features-benchmarking.md": "05dcfd9ec2fa2b4cac77bb2ab3dcd09e1f22d99041d51554cb78ea0ed43b0f86",
+        ".agents/skills/vitest/references/features-concurrency.md": "c4ee8b0994270ebd97fa903bb8430faea5a823896bbda1a965dbcf93fc48810a",
+        ".agents/skills/vitest/references/features-context.md": "9cf4a1f51af7379055f30bc4b9dde72ce2d8d07037a24835d8803774bb456be8",
+        ".agents/skills/vitest/references/features-coverage.md": "6c4562fb5f32fe5671dbe593ca8188e9188244650d0d58400587748393006696",
+        ".agents/skills/vitest/references/features-filtering.md": "87cf40827574f359b140c18923d812232c77c54badf2f015a90fe626e685deaa",
+        ".agents/skills/vitest/references/features-mocking.md": "08a0f7345144c428720523428dd56609f32efcc1c1a573702b4659715a2c40fb",
+        ".agents/skills/vitest/references/features-reporters.md": "62bbec975ef89f0172e0c6fc39182240c8c5bc2ba3c0f209a1e6ca0432bd326a",
+        ".agents/skills/vitest/references/features-snapshots.md": "906f5b111b747a7d1396eef82725c23a590e2ecd4c7d4889679a72f40adcc051",
+        ".agents/skills/vitest/references/features-test-tags.md": "6e39db1a7b622b0f325a5cec0fca1e78aab4ed14b8e1a8dbe0eb396e7a0f642d"
+      }
+    },
+    {
+      "path": ".agents/skills/property-based-testing",
+      "source": "https://github.com/trailofbits/skills",
+      "sourcePath": "plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+      "installation": "Skills CLI; upstream commit revision not recorded",
+      "installerLockfile": "skills-lock.json",
+      "installerComputedHash": "c754807c7113dfb2e8c2de64e19a6612f87282b621da8b1e50e2a7137d8bbe8c",
+      "license": "CC-BY-SA-4.0",
+      "licensePath": ".agents/licenses/trailofbits-skills.txt",
+      "sha256": {
+        ".agents/skills/property-based-testing/README.md": "ffbe30eec09cc64fb1eae836b07ca1d82939bda3f1e6f0dceadcdd78793a3112",
+        ".agents/skills/property-based-testing/SKILL.md": "be3e395c893dcdfe8ce65ac02ad020e818b6640c48281c09b061a41e16c214a1",
+        ".agents/skills/property-based-testing/agents/openai.yaml": "51d635deefa254d8cdf6dc56450851b6ec9545cd37f88a4eb4035cf3f2262fff",
+        ".agents/skills/property-based-testing/assets/trail-of-bits-mark.svg": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        ".agents/skills/property-based-testing/references/generating.md": "c0e72dfc89babe3c32de718b81b94044362c85e776d7475e950dfeaab78bb58e",
+        ".agents/skills/property-based-testing/references/interpreting-failures.md": "dbae7db8773712ba03268a3d56ea5aa6720af0650a5189580bfd88aa2edc3f9a",
+        ".agents/skills/property-based-testing/references/libraries.md": "f7218acf8e668130ef3048983472579d04e12030c5401926f666363e5f69c686",
+        ".agents/skills/property-based-testing/references/refactoring.md": "6eb5c206f575704791f089608bb06e41d6eed91b9d3c7fb27912f969aed07a18",
+        ".agents/skills/property-based-testing/references/reviewing.md": "110b08118a1e7b1a2566def6e9d2a0bf43fc2deefce857d2ce3b4382b07bc774"
+      },
+      "upstreamRecordedSha256": {
+        ".agents/skills/property-based-testing/README.md": "ffbe30eec09cc64fb1eae836b07ca1d82939bda3f1e6f0dceadcdd78793a3112",
+        ".agents/skills/property-based-testing/SKILL.md": "9448cacb65c6237a7c22dc59602667177ecae405524079ae9ff92240590b995a",
+        ".agents/skills/property-based-testing/agents/openai.yaml": "51d635deefa254d8cdf6dc56450851b6ec9545cd37f88a4eb4035cf3f2262fff",
+        ".agents/skills/property-based-testing/assets/trail-of-bits-mark.svg": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        ".agents/skills/property-based-testing/references/generating.md": "c0e72dfc89babe3c32de718b81b94044362c85e776d7475e950dfeaab78bb58e",
+        ".agents/skills/property-based-testing/references/interpreting-failures.md": "dbae7db8773712ba03268a3d56ea5aa6720af0650a5189580bfd88aa2edc3f9a",
+        ".agents/skills/property-based-testing/references/libraries.md": "f7218acf8e668130ef3048983472579d04e12030c5401926f666363e5f69c686",
+        ".agents/skills/property-based-testing/references/refactoring.md": "6eb5c206f575704791f089608bb06e41d6eed91b9d3c7fb27912f969aed07a18",
+        ".agents/skills/property-based-testing/references/reviewing.md": "110b08118a1e7b1a2566def6e9d2a0bf43fc2deefce857d2ce3b4382b07bc774"
+      },
+      "localAdaptation": {
+        "changedFiles": [
+          ".agents/skills/property-based-testing/SKILL.md"
+        ],
+        "note": "Moved effort annotation into metadata; skill body retained."
+      }
+    },
+    {
+      "path": ".agents/skills/typescript-discriminated-unions",
+      "source": "https://github.com/mkosir/typescript-style-guide",
+      "sourcePath": "skills/typescript-discriminated-unions/SKILL.md",
+      "installation": "Skills CLI; upstream commit revision not recorded",
+      "installerLockfile": "skills-lock.json",
+      "installerComputedHash": "9d78f0a301706ba0becfa780ef9c6a80dee373340a240c4a5f5e59de1d75f370",
+      "license": "MIT",
+      "licensePath": ".agents/licenses/mkosir-typescript-style-guide.txt",
+      "sha256": {
+        ".agents/skills/typescript-discriminated-unions/SKILL.md": "7f019ca10e9694258673c743c66ca7b7078d02bf048b7985154c075874dbacd4"
+      }
+    },
+    {
+      "path": ".agents/skills/typescript-types",
+      "source": "https://github.com/mkosir/typescript-style-guide",
+      "sourcePath": "skills/typescript-types/SKILL.md",
+      "installation": "Skills CLI; upstream commit revision not recorded",
+      "installerLockfile": "skills-lock.json",
+      "installerComputedHash": "0f13dbf8d7bb2100444b97bee2e280716e6bd5171defa257261e8d78067851c6",
+      "license": "MIT",
+      "licensePath": ".agents/licenses/mkosir-typescript-style-guide.txt",
+      "sha256": {
+        ".agents/skills/typescript-types/SKILL.md": "cc3b62b958188e6be9c682a1468e3599bcc437e5fbe29ab63ebafbf3207655e9"
+      }
+    },
+    {
+      "path": ".agents/skills/codebase-design",
+      "source": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/engineering/codebase-design",
+      "revision": "49dd158d1076134a641b33efb035946536778336",
+      "installation": "skill-installer; pinned download, copied unchanged into project-local skills",
+      "license": "MIT",
+      "licensePath": ".agents/licenses/mattpocock-skills.txt",
+      "sha256": {
+        ".agents/skills/codebase-design/DEEPENING.md": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1",
+        ".agents/skills/codebase-design/DESIGN-IT-TWICE.md": "52b52e75655a27aea59c6966b410bac82448968ad46ef1ebb9f07c274e3ae010",
+        ".agents/skills/codebase-design/SKILL.md": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+        ".agents/skills/codebase-design/agents/openai.yaml": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f",
+        ".agents/licenses/mattpocock-skills.txt": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+      }
+    }
+  ],
+  "importedFrom": {
+    "project": "Daphne",
+    "localCheckout": "../daphne",
+    "revision": "ec520f36214ceb60e46aa536ebe971e026de6996",
+    "sourceFilesClean": true,
+    "note": "Upstream revisions below are inherited provenance, not a claim that every local file is identical to that upstream revision."
+  },
+  "personaAdaptations": {
+    "date": "2026-11-05",
+    "note": "Adapted project names, paths, module ownership, test placement, and tooling status. Preserved original upstream attribution and invocation policies. Omitted the Rust migration skill.",
+    "files": {
+      ".agents/skills/persona-typescript/SKILL.md": {
+        "sourcePath": ".agents/skills/daphne-typescript/SKILL.md",
+        "sourceSha256": "9d33a9d92a196f8005a6820628147e88c48992f0421a5556fa86fb93394e790d",
+        "sha256": "4f83fd6398827d333a0e2b10bc1efbb0f3524bcc53d16c92750584d8ba644ef7"
+      },
+      ".agents/skills/persona-code-readability/SKILL.md": {
+        "sourcePath": ".agents/skills/daphne-code-readability/SKILL.md",
+        "sourceSha256": "b6149619e53995707c154d97298734f968e982e6f6ee8ef90a586370cb395ae7",
+        "sha256": "ff8e655851e31840e4eeb751c60c8d0542d261170dc9333fd58ec0f8b5d47243"
+      },
+      ".agents/skills/agent-workflow-design/SKILL.md": {
+        "sourcePath": ".agents/skills/agent-workflow-design/SKILL.md",
+        "sourceSha256": "a0aca501bbbaea5d943df7bc9b744b389554484b7f8b7208c910d2a24ecd0ca0",
+        "sha256": "f4dd2d6a4160c330b5aa91c16a68180fe0904a44c42e0fca3b77a56cb5960ec6"
+      },
+      ".agents/skills/README.md": {
+        "sourcePath": ".agents/skills/README.md",
+        "sourceSha256": "cd4004ed76c639ae2392e2fbc5f92e05f558b56cfe72b52585b804bf38bb7c72",
+        "sha256": "330dff93f23e25f9a883a6d93efd22625365236e1df6ecad45baf6af232cdb2f"
+      },
+      "AGENTS.md": {
+        "sourcePath": "AGENTS.md",
+        "sourceSha256": "91e55f34978f0754a51edda273f616fbca99990a5660cbaa74b3e3a9688017e9",
+        "sha256": "306ae317b34e137eb614275d34c7c54202b3847c594772de1d9bdb9ada7641ed"
+      },
+      "docs/agents/typescript-quality.md": {
+        "sourcePath": "docs/agents/typescript-quality.md",
+        "sourceSha256": "afdac7d11c2e5446299d6347fc9f6d1169eaa0b4d2f0bc8c6fa2ee71da2b8912",
+        "sha256": "1875db4552463237f99935f9ae02fa896861f16fd06b3c788654f86c294ab6c7"
+      },
+      "docs/agents/testing.md": {
+        "sourcePath": "docs/agents/testing.md",
+        "sourceSha256": "327163a6530166f38e8fb6e650a515fd571818b0fa96294f6f35feb3a0826678",
+        "sha256": "2b589f3f25dab1c17dabde448c8e76618f95a77e0d980770009c6ec09d2f95db"
+      }
+    }
+  }
+}
