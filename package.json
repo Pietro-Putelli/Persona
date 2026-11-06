@@ -1,0 +1,35 @@
+{
+  "name": "persona",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "bun@1.3.10",
+  "engines": {
+    "bun": "1.3.10"
+  },
+  "workspaces": [
+    "apps/backend"
+  ],
+  "scripts": {
+    "dev": "bun run --cwd apps/backend dev",
+    "build": "bun run --cwd apps/backend build",
+    "start": "bun run --cwd apps/backend start",
+    "typecheck": "bun run --cwd apps/backend typecheck",
+    "lint": "eslint apps/backend/src --max-warnings 0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "bun run typecheck && bun run lint && bun run format:check"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/bun": "1.3.10",
+    "@types/node": "25.3.0",
+    "eslint": "10.14.0",
+    "prettier": "3.9.10",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1"
+  },
+  "patchedDependencies": {
+    "bun-types@1.3.10": "patches/bun-types@1.3.10.patch"
+  }
+}

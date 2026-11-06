@@ -34,7 +34,7 @@ These are the agreed boundaries for implementation; corresponding modules may no
 
 ## Commands and verification
 
-There is currently no configured package manager, root task runner, TypeScript compiler, formatter, test runner, or Xcode project. `apps/backend/package.json` contains no scripts. Do not advertise invented build or test commands, import another project's runtime pins, or install tooling merely because an imported skill mentions it.
+Use the Bun version pinned in `package.json` for both the runtime and package manager. From the root, `bun install --frozen-lockfile` installs the workspace, `bun run check` runs strict TypeScript checking, typed ESLint, and Prettier, and `bun run build` compiles the backend. `bun run start` runs the compiled entry point; `bun run dev` watches the TypeScript source. `bunfig.toml` makes development tools use Bun even when their shebang names Node. `docker compose config --quiet` validates Hermes configuration once `HERMES_API_KEY` is set. There are no configured tests or Xcode project yet. Do not advertise invented commands or install tooling merely because an imported skill mentions it.
 
 Once tooling is added, use the actual manifests, version pins, formatter configuration, and Xcode schemes. Format touched files with the applicable language tooling and run the required checks. Keep runtime and dependency pins consistent; never weaken strictness to make a change pass. Report checks actually run and their limits; structural checks do not prove runtime behavior.
 

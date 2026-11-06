@@ -1,6 +1,6 @@
 # TypeScript quality
 
-Use the smallest complete implementation. Minimize unnecessary complexity, not line count; readable, explicit code takes precedence over compressed expressions. Inspect callers, serialization, tests, and downstream consumers before changing a contract. Prefer Node standard-library functions over dependencies for small operations.
+Use the smallest complete implementation. Minimize unnecessary complexity, not line count; readable, explicit code takes precedence over compressed expressions. Inspect callers, serialization, tests, and downstream consumers before changing a contract. Prefer Bun or supported Node standard-library functions over dependencies for small operations.
 
 - Use strict compiler and typed lint checks when configuring the backend; preserve them once enabled. Validate untrusted input once at its entry point, then pass typed values inward. Types alone do not validate JSON, provider output, subprocess output, persisted data or JavaScript callers. Internal functions trust those validated types; do not convert typed arguments back to `unknown` just to repeat object, property or primitive-type checks. Keep domain checks that types cannot express, such as safe integer indexes, bounds and snapshot membership.
 - Model alternatives as discriminated unions and handle them exhaustively. Do not use casts, non-null assertions, `any`, or lint suppression to conceal an unproved invariant.
@@ -11,7 +11,7 @@ Use the smallest complete implementation. Minimize unnecessary complexity, not l
 - Keep module exports intentional. Use `import type`; follow the actual runtime and compiler module-resolution settings for relative import extensions. Consumers use public module or package entry points, not private implementation paths.
 - Follow [testing](testing.md) for test-editing authorization and placement. When authorized, cover meaningful outcomes and failures. Run existing required checks and review the final diff for unnecessary abstractions and dependencies.
 
-Tooling changes follow [repository guidance](../../AGENTS.md#commands-and-verification). Persona currently has no configured compiler, formatter, test runner, or package-manager commands. Inspect actual manifests before running commands; importing a reference skill does not install or select its tooling.
+Tooling changes follow [repository guidance](../../AGENTS.md#commands-and-verification). Persona uses Bun workspaces, strict TypeScript, typed ESLint, and Prettier; no tests are configured. Inspect actual manifests before running commands; importing a reference skill does not install or select its tooling.
 
 ## Readability
 

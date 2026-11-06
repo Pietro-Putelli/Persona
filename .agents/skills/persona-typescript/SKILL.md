@@ -13,7 +13,7 @@ Read [TypeScript quality](../../../docs/agents/typescript-quality.md) for coding
 | Test design and commands | [Testing](../../../docs/agents/testing.md); load the `vitest` skill only when applicable to the installed runner |
 | Task, tool, and approval contracts | [Architecture and ownership](../../../AGENTS.md#architecture-and-ownership) |
 
-Resolve backticked paths from the repository root. Use commands that actually exist in the package manifests. Persona currently has no runnable build, lint, or test scripts; importing skills does not configure those tools.
+Resolve backticked paths from the repository root. Use commands that actually exist in the package manifests. Root Bun scripts configure building, type checking, typed linting, and formatting; no tests are configured. Importing skills does not configure tools.
 
 Validate untrusted input at its entry point and trust validated typed internal calls. Choose `readonly` for concrete ownership guarantees rather than applying it everywhere. These scoped repository rules take precedence over generic TypeScript guidance.
 

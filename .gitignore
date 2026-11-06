@@ -10,7 +10,7 @@
 *.pem
 *.key
 
-# Node and TypeScript outputs
+# JavaScript dependencies and TypeScript outputs
 node_modules/
 dist/
 build/

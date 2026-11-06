@@ -20,6 +20,6 @@ For task execution, useful cases include stale approvals, changed recipients or 
 
 ## Tooling status
 
-No test runner, TypeScript compiler configuration, Xcode project, or application check commands are installed yet. The vendored `vitest` skill is reference material, not a decision to use that runner. If Vitest is selected, inspect its installed version, import APIs explicitly, and run TypeScript checking separately. Generic skill examples are not Persona commands.
+`bun run check` runs TypeScript checking, typed ESLint, and Prettier; `bun run build` compiles the backend. Bun provides a test runner, but no tests or test scripts are configured; there is no Xcode project yet. The vendored `vitest` skill is reference material, not a decision to use that runner. If Vitest is selected, inspect its installed version, import APIs explicitly, and run TypeScript checking separately. Generic skill examples are not Persona commands.
 
 Use the repository's actual scripts and targets once configured. Do not install a property-testing library merely because its skill is present. Report the checks run and any remaining gaps; static documentation or link checks cannot establish application behavior.
