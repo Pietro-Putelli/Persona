@@ -5,9 +5,9 @@
   "description": "Persona API and background worker",
   "type": "module",
   "scripts": {
-    "dev": "bun --watch src/index.ts",
+    "dev": "bun --env-file=../../.env --watch src/index.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "bun dist/index.js",
+    "start": "bun --env-file=../../.env dist/index.js",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

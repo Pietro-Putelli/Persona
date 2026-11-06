@@ -1,6 +1,6 @@
 # Working in Persona
 
-Persona is a general-purpose voice assistant with a SwiftUI iPhone client and a TypeScript backend. Tasks can continue in the background independently of conversations. The repository currently contains a scaffold, not a runnable application. Read the affected files before assuming a component or command exists.
+Persona is a general-purpose voice assistant project with a planned SwiftUI iPhone client and TypeScript backend. Tasks will be able to continue independently of conversations. The current runnable backend is a text CLI connected to Hermes; other application components remain planned. Read the affected files before assuming a component or command exists.
 
 ## Skills and policies
 
